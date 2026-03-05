@@ -29,6 +29,66 @@
 
     <header>
 
+        <nav>
+            <div class="navbar bg-[#15803D] py-3 shadow-sm">
+
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+
+                        <ul tabindex="-1"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow">
+                            <li><a>About</a></li>
+                            <li><a>Gallery</a></li>
+                            <li><a>Plant a Tree</a></li>
+                        </ul>
+                    </div>
+
+                    <a class="btn btn-ghost text-xl text-white">Green Earth</a>
+                </div>
+
+                <div class="navbar-center hidden md:flex">
+                    <ul class="rounded-box p-2 shadow flex gap-3 text-white cursor-pointer">
+                        <li><a>About</a></li>
+                        <li><a>Gallery</a></li>
+                        <li><a>Plant a Tree</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar-end">
+                    <a class="btn bg-[#FACC15] text-[#15803D] rounded-full">Plant a Tree</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="banner bg-[#CFF0DC] grid grid-cols-3  items-center justify-between">
+
+            <div class="w-full col-span-1">
+                <img class="w-full h-full object-cover" src="./assets/hero-leaf1.png" alt="">
+            </div>
+
+            <div class="banner-info text-[#1F2937] text-center py-10 space-y-2 col-span-1">
+                <h1 class="text-4xl font-bold">
+                    Plant a Tree, Grow a Future
+                </h1>
+                <p>Join our mission to plant 1 million trees and make the Earth greener for future
+                    generations.</p>
+                <div class="mt-5">
+                    <a class="btn bg-[#FACC15] text-[#15803D] rounded-full">Plant a Tree</a>
+                </div>
+            </div>
+            <div class="w-full col-span-1">
+                <img class="w-full h-full object-cover" src="./assets/hero-leaf2.png" alt="">
+            </div>
+        </div>
+
     </header>
 
     <main class="bg-[#F0FDF4]">
@@ -58,7 +118,7 @@
                         <figure>
 
                         </figure>
-                        <div class="card-body">
+                        <div class="card p-4">
                             <h2 class="card-title">
                                 Card Title
                                 <div class="badge badge-secondary">NEW</div>
@@ -69,7 +129,11 @@
                                 <div class="badge badge-outline">Fashion</div>
                                 <div class="badge badge-outline">Products</div>
                             </div>
+                            <div class="card-actions">
+                                <button class="btn btn-primary w-full rounded-full">Buy Now</button>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
