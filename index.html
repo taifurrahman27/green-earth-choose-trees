@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+
+    <title>Green Earth | Choose Your Trees</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+
+</head>
+
+<body>
+
+
+    <header>
+
+    </header>
+
+    <main class="bg-[#F0FDF4]">
+        <section>
+            <h1 class="header bg-amber-200 text-green-600 text-6xl text-center font-bold">Choose Your Trees</h1>
+        </section>
+        <section class="bg-gray-300 grid grid-cols-15 gap-2.5 p-2">
+            <div class="card card-body shadow-xl  col-span-3 text-center">
+                <h2 class="font-bold text-4xl">
+                    Category
+                </h2>
+
+                <div id="all-tree-category" class="btn btn-suceess">
+                    All Category
+                </div>
+
+                <div id="category-btn">
+
+                </div>
+            </div>
+
+
+            <div class="card shadow-xl bg-green-400 col-span-8 text-center">
+                <div id="all-trees-cards" class="card card-body grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-1.5">
+
+                    <div class="card bg-base-100 shadow-sm">
+                        <figure>
+
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Card Title
+                                <div class="badge badge-secondary">NEW</div>
+                            </h2>
+                            <p>A card component has a figure, a body part, and inside body there are title and actions
+                                parts</p>
+                            <div class="card-actions justify-end">
+                                <div class="badge badge-outline">Fashion</div>
+                                <div class="badge badge-outline">Products</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card card-body shadow-xl bg-gray-300 col-span-4 text-center">
+                <h2 class="font-bold text-4xl">
+                    Cart
+                </h2>
+
+                <div class="cart-info">
+                    <h3>Tree Name</h3>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
